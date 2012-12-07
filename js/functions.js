@@ -1,7 +1,7 @@
 // masonry code 
 $(document).ready(function() {
   $('#post-area').masonry({
-    // columnWidth : 250,
+    columnWidth : 250,
     itemSelector : '.post'
   });
 });

@@ -1,8 +1,9 @@
-	
+
+<div style="clear:both;">&nbsp;</div>
 <?php if ( is_active_sidebar( 'gridly_footer')) { ?>     
   <div id="footer-area"><?php dynamic_sidebar( 'gridly_footer' ); ?></div>
 <?php }  ?>     
-      
+
 
 
  <div id="copyright">
