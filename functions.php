@@ -8,7 +8,7 @@
 		function core_mods() {
 			if ( !is_admin() ) {
 				wp_deregister_script('jquery');
-				wp_register_script('jquery', ("http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"));
+				wp_register_script('jquery', ("http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"));
 				wp_register_script('jquery.masonry', (get_template_directory_uri()."/js/jquery.masonry.min.js"),'jquery',false,true);
 				wp_register_script('gridly.functions', (get_template_directory_uri()."/js/functions.js"),'jquery.masonry',false,true);
 				
@@ -36,8 +36,8 @@
     
 	// Gridly post thumbnails
 	add_theme_support( 'post-thumbnails' );
-		add_image_size('summary-image', 310, 9999);
-		add_image_size('detail-image', 770, 9999);
+		add_image_size('summary-image', 200, 9999);
+		add_image_size('detail-image', 600, 9999);
 	
 	
     // menu 

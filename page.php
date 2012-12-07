@@ -18,8 +18,6 @@
            		 <?php the_content(); ?> 
                 
                  <?php wp_link_pages(); ?>
-                
-					<?php comments_template(); ?> 
                  
          		</div>
                 
@@ -29,6 +27,4 @@
        </div>
        
 		<?php endwhile; endif; ?>
-       
-
 <?php get_footer(); ?>
